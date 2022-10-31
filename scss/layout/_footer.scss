@@ -1,0 +1,20 @@
+.pie {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  grid-template-areas: "ig git lin";
+  transition: .3s;
+
+  .ig, .git, .lin {
+    margin: 5px;
+  }
+
+  .ig:hover, .git:hover, .lin:hover {
+    transform: translateY(-3px) scale(1.2);
+  }
+}
+
+.copyright {
+  text-align: center;
+}

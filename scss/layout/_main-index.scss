@@ -1,0 +1,30 @@
+.hero {
+    height: 75vh;
+    background-image: url(../../assets/img/DesarrolloWeb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+  
+    .context {
+      color: black;
+      background-color: #d8d6d65e;
+      width: 40%;
+      border-radius: 30px;
+      font-size: 1rem;
+      text-align: center;
+      align-self: center;
+      padding: 20px;
+      }
+  
+      h1 {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+  
+      h3 {
+        font-weight: 500;
+      }
+

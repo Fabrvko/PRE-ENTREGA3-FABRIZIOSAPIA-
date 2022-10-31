@@ -1,0 +1,40 @@
+.navbar {
+  height: 10vh;
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.dropstart {
+  display: none;
+}
+
+.navbar {
+  .logo {
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    grid-column: 1/2;
+    }
+
+  .menu {
+    margin-top: 20px;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    li a:hover {
+      color: grey;
+      transform: translateY(-3px) scale(1.1);
+    }
+}

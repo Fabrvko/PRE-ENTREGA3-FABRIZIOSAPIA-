@@ -1,0 +1,33 @@
+/* RESET */
+@import "./base/reset";
+
+@import "./base/typo";
+
+@import "./utilities/variable";
+
+
+/* LAYOUTS */
+
+@import "./layout/body";
+
+@import "./layout/header";
+
+@import "./layout/main-index";
+
+@import "./layout/main-sobremi";
+
+@import "./layout/main-conocimientos";
+
+@import "./layout/main-portfolio";
+
+@import "./layout/main-contacto";
+
+/* FOOTER */
+
+@import "./layout/footer";
+
+/* MEDIA */
+
+@import "./layout/media-tablet";
+
+@import "./layout/media-mobile";

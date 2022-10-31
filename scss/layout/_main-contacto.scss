@@ -1,0 +1,51 @@
+.hero4 {
+    height: 75vh;
+    background-image: url(../assets/img/DesarrolloWeb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    background-color: #d8d6d65e;
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form__title {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .form__container {
+    text-align: center;
+  
+    .input1 {
+      margin: 10px;
+      border: solid 1px;
+    }
+  }
+  
+  .textarea {
+    justify-content: center;
+    justify-items: center;
+    margin-top: 10px;
+    border: solid 1px;
+  }
+  
+  .form__submit {
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: solid 1px;
+  }
