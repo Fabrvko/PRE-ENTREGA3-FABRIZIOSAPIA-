@@ -1,8 +1,5 @@
 .hero1 {
-    height: 75vh;
-    background-image: url(../../assets/img/DesarrolloWeb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include backgroundimage;
     max-width: 100%;
     display: flex;
     justify-content: center;

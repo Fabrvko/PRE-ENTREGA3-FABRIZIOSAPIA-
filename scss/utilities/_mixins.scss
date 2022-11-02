@@ -4,3 +4,10 @@
     justify-self: end;
     font-size: 1em;    
 }
+
+@mixin backgroundimage {
+    height: 75vh;
+    background-image: url(../../assets/img/DesarrolloWeb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
