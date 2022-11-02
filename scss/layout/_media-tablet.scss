@@ -7,10 +7,7 @@
     }
   
     .dropstart {
-      display: block;
-      margin-right: 20px;
-      justify-self: end;
-      font-size: 1em;
+      @include responsive;
     }
   
     .navbar .menu {

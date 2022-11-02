@@ -9,7 +9,7 @@
     grid-template-rows: repeat(1, 1fr);
   
     .work {
-      background-color: #d8d6d65e;
+      background-color: $background-color-text;
       border-radius: 20px;
       grid-column: 1/2;
       align-self: center;
@@ -30,7 +30,7 @@
   
   .hero3  {
     .work1 {
-    background-color: #d8d6d65e;
+    background-color: $background-color-text;
     border-radius: 20px;
     grid-column: 2/3;
     align-self: center;
@@ -44,7 +44,7 @@
   }
 
     .work2 {
-      background-color: #d8d6d65e;
+      background-color: $background-color-text;
       border-radius: 20px;
       grid-column: 3/4;
       align-self: center;
@@ -53,7 +53,7 @@
     }
   
     .work3 {
-      background-color: #d8d6d65e;
+      background-color: $background-color-text;
       border-radius: 20px;
       grid-column: 4/5;
       align-self: center;
