@@ -61,7 +61,7 @@ body {
   color: black;
   background-color: #d8d6d65e;
   width: 45%;
-  height: 25%;
+  height: 35%;
   border-radius: 20px;
   text-align: center;
   justify-self: center;
@@ -353,7 +353,7 @@ body {
   /* INDEX TABLET */
   .hero .context {
     width: 45%;
-    height: 25%;
+    height: 35%;
     font-size: 1em; }
   /*SOBRE MI TABLET*/
   .hero1 .text {
@@ -399,7 +399,7 @@ body {
   .hero .context {
     display: grid;
     width: 45%;
-    height: 25%; }
+    height: 35%; }
   /*SOBRE MI TABLET*/
   .hero1 .text {
     overflow: scroll;
@@ -449,7 +449,7 @@ body {
     grid-template-rows: 1fr; }
     .hero .context {
       width: 45%;
-      height: 25%;
+      height: 35%;
       font-size: 1em;
       overflow: hidden; }
   /*SOBRE MI MOBILE*/
@@ -524,7 +524,7 @@ body {
     grid-template-rows: 1fr; }
     .hero .context {
       width: 45%;
-      height: 25%;
+      height: 35%;
       font-size: 1rem;
       overflow: hidden;
       display: grid; }
