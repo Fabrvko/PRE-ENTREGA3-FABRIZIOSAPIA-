@@ -29,12 +29,13 @@
     }
 
     a {
+      font-size: 1rem;
       text-decoration: none;
       color: black;
+      border-radius: 20px;
     }
 
     li a:hover {
-      color: grey;
-      transform: translateY(-3px) scale(1.1);
+      color: azure;
     }
 }

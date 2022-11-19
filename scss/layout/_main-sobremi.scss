@@ -16,4 +16,14 @@
       text-align: center;
       align-self: center;
       align-items: center;
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+      }
+
+      a:hover {
+        color: azure;
+      }
   }

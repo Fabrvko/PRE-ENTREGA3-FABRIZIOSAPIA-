@@ -11,3 +11,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@mixin center {
+    text-align: center;
+    align-self: center;
+}
