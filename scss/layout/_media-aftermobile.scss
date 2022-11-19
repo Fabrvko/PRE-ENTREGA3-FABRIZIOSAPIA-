@@ -1,5 +1,5 @@
 /* INDEX */
-@media (max-width: 576px) {
+@media (max-width: 545px) {
     .navbar {
       position: relative;
     }
@@ -18,15 +18,17 @@
     }
   
     .hero {
+      height: 75vh;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
   
       .context {
-        width: 45%;
-        height: 20%;
-        font-size: 1em;
+        font-size: 1rem;
         overflow: hidden;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
       }
     }
   

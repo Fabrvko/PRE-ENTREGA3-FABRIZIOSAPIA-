@@ -49,26 +49,34 @@ body {
   background-image: url(../../assets/img/DesarrolloWeb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100%;
-  display: flex;
-  justify-content: center; }
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr; }
 
 .context {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
   color: black;
   background-color: #d8d6d65e;
-  width: 40%;
-  border-radius: 30px;
-  font-size: 1rem;
+  width: 30%;
+  height: 100px;
+  border-radius: 20px;
   text-align: center;
-  align-self: center;
-  padding: 20px; }
+  justify-self: center;
+  align-self: center; }
 
-h1 {
+.title1 {
   font-size: 2rem;
-  font-weight: 700; }
+  font-weight: 700;
+  align-self: center;
+  padding-top: 10px; }
 
-h3 {
-  font-weight: 500; }
+.title2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  align-self: center; }
 
 .hero1 {
   height: 75vh;
@@ -332,7 +340,7 @@ h3 {
 
 /* MEDIA */
 /* INDEX */
-@media (max-width: 860px) {
+@media (max-width: 1024px) {
   .navbar {
     position: relative; }
   .dropstart {
@@ -344,9 +352,8 @@ h3 {
     display: none; }
   /* INDEX TABLET */
   .hero .context {
-    font-size: 1em;
-    align-self: center;
-    padding: 20px; }
+    width: 30%;
+    font-size: 1em; }
   /*SOBRE MI TABLET*/
   .hero1 .text {
     overflow: scroll;
@@ -389,9 +396,8 @@ h3 {
     display: none; }
   /* INDEX TABLET */
   .hero .context {
-    font-size: 1em;
-    align-self: center;
-    padding: 20px; }
+    display: grid;
+    width: 30%; }
   /*SOBRE MI TABLET*/
   .hero1 .text {
     overflow: scroll;
@@ -436,7 +442,6 @@ h3 {
   .navbar .menu {
     display: none; }
   .hero {
-    height: 75vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
@@ -444,9 +449,7 @@ h3 {
       width: 45%;
       height: 20%;
       font-size: 1em;
-      overflow: hidden;
-      justify-self: center;
-      align-self: center; }
+      overflow: hidden; }
   /*SOBRE MI MOBILE*/
   .hero1 .text {
     overflow: scroll;

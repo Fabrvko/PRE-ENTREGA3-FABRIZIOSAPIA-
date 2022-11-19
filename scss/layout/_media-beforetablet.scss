@@ -1,7 +1,7 @@
 
 /* INDEX */
 
-@media (max-width: 860px) {
+@media (max-width: 1024px) {
     .navbar {
       position: relative;
     }
@@ -17,9 +17,8 @@
     /* INDEX TABLET */
 
     .hero .context {
+      width: 30%;
       font-size: 1em;
-      align-self: center;
-      padding: 20px;
     }
   
     /*SOBRE MI TABLET*/
