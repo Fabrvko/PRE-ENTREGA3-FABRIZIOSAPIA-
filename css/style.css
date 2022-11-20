@@ -332,8 +332,10 @@ body {
   justify-content: center;
   transition: .3s; }
   .pie .ig:hover, .pie .git:hover, .pie .lin:hover {
-    transform: translateY(-3px) scale(1.1);
+    transform: translateY(-3px);
     image-rendering: auto; }
+  .pie .git {
+    margin: 5px; }
 
 .copyright {
   text-align: center; }
@@ -524,7 +526,7 @@ body {
     grid-template-rows: 1fr; }
     .hero .context {
       width: 45%;
-      height: 35%;
+      height: 5%;
       font-size: 1rem;
       overflow: hidden;
       display: grid; }
